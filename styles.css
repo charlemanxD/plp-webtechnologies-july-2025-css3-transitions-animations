@@ -1,0 +1,36 @@
+/* 
+kasfka
+*/
+
+.hover-button {
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 18px;
+    border: ;
+    background-color: bisque;
+    transition: margin-left .8s ease, background-color .8s ease-in;
+}
+
+.hover-button:hover {
+    margin-left: 20px;
+    background-color: aquamarine;
+}
+
+/* 
+Combinin Js and Animation
+*/
+.container-2 {
+    margin-top: 30px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(194, 231, 157);
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out; /* Smooth transition for property changes */
+}
+
+.animate-move {
+    transform: translateX(200px);
+}
